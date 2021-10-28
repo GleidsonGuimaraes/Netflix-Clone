@@ -1,3 +1,22 @@
+@media screen and (max-width: 450px) {
+
+    header .container{
+        align-items: center;
+        margin: 0;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav a {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+}
+
 @media screen and (max-width: 700px) {
     header .container {
         display: flex;
@@ -14,8 +33,24 @@
     }
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width: 850px) {
     .descricao {
         width: 50%;
+    }
+
+    .filmePrincipal {
+        height: 500px;
+        background-position-y: 20%;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .descricao {
+        width: 50%;
+    }
+
+    .filmePrincipal {
+        height: 750px;
+        background-position-y: 30%;
     }
 }
